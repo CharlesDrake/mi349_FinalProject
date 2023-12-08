@@ -1,2 +1,1 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+A portfolio for my final project.
