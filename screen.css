@@ -99,6 +99,7 @@ nav a{
 }
 
 .names section p{
+    color: black;
     margin: 20px;
 }
 
@@ -175,6 +176,10 @@ img{
     .names section{
         background:#8B008B;
         color: white;
+    }
+
+    .names section p{
+        color:white;
     }
 
     .details section{
