@@ -21,7 +21,6 @@ header{
     justify-content: space-between;
 }
 
-
 header h1{
     font-size: 2.5em;
 }
@@ -36,6 +35,18 @@ nav{
     justify-content: space-between;
     position: sticky;
     top: 0px;
+}
+
+a:hover{
+    color:#006400;
+}
+
+a:active{
+    color:#FFFF00;
+}
+
+a:visited{
+    color: black;
 }
 
 nav ul{
@@ -112,14 +123,34 @@ div.code p{
     font-weight: bold;
 }
 
-
-
 main{
     margin: 0 auto;
     width: 80%;
 }
 
-@media screen and (max-width: 600px) {
+
+main p{
+    color: white;
+    padding: 20px;
+}
+
+main ul{
+    color: white;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.myimage{
+    float:right;
+    padding:10px;
+    margin:10px;
+}
+
+
+@media screen and (max-width: 960px) {
     header{
         background-color: #8B008B;
         color: white;
@@ -134,7 +165,11 @@ main{
     }
 
     body{
-        background-color: white;;
+        background-color: white;
+    }
+
+    .extra{
+        background-color: white;
     }
 
     .names section{
@@ -145,5 +180,13 @@ main{
     .details section{
         background:#8B008B;
         color: white;
+    }
+
+    main p{
+        color: black;
+    }
+
+    main ul{
+        color: black; 
     }
 }
